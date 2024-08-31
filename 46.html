@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Append Paragraph</title>
+</head>
+<body>
+    <button onclick="addParagraph()">Add Paragraph</button>
+
+    <script>
+        function addParagraph() {
+            // Create a new paragraph element
+            const newParagraph = document.createElement('p');
+            // Set the text content of the paragraph
+            newParagraph.textContent = 'This is a new paragraph.';
+            // Append the new paragraph to the body
+            document.body.appendChild(newParagraph);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Element</title>
+</head>
+<body>
+    <div id="originalElement">I am the original element.</div>
+    <button id="cloneButton">Clone Element</button>
+
+    <script>
+              document.getElementById('cloneButton').addEventListener('click', () => document.body.appendChild(document.getElementById('originalElement').cloneNode(true)));
+
+    </script>
+</body>
+</html>

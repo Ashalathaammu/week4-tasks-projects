@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript as an Interpreted Language</title>
+</head>
+<body>
+    <h1>JavaScript: An Interpreted Language</h1>
+    <p id="explanation"></p>
+
+    <script>
+        // Define the explanation text
+        const explanation = `
+            JavaScript is considered an interpreted language because the code is executed line by line by an interpreter at runtime. 
+            This means that when a browser runs a JavaScript script, it reads and executes the code directly, 
+            without needing to compile it into machine language beforehand. 
+            The interpreter processes the JavaScript code and performs the actions described in the code immediately, 
+            which allows for dynamic and interactive web pages.
+        `;
+
+        // Display the explanation in the HTML document
+        document.getElementById('explanation').innerText = explanation;
+    </script>
+</body>
+</html>
